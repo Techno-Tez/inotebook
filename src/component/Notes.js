@@ -16,7 +16,8 @@ export const Notes = () => {
         else{
             navigate('/login')
         }
-    }, [])
+        // eslint-disable-line react-hooks/exhaustive-deps
+    })
 
     const updateNote = ((curr_note) => {
         document.getElementById('modal').click()
