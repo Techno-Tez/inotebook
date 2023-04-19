@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const url = 'mongodb://localhost:27017/inotebook'
+const url = 'mongodb://0.0.0.0:27017/inotebook'
 
 const connectToMongo = () => {
     mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
