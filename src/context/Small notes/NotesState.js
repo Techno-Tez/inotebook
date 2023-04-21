@@ -2,7 +2,7 @@ import NoteContext from "./noteContext";
 import { useState } from "react";
 
 const NoteState = (props) => {
-  const host = "mongodb+srv://pateltejas2005:patelbrothers%402005@cluster0.gf7ifp2.mongodb.net/inotebook?retryWrites=true&w=majority"
+  const host = "https://inotebook-back.onrender.com"
   const initialNote = []
   const [notes, setNotes] = useState(initialNote)
 
