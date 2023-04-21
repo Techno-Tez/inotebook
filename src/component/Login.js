@@ -7,7 +7,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("https://inotebook-back.onrender.com/api/auth/login", {
+    const response = await fetch("mongodb+srv://pateltejas2005:patelbrothers%402005@cluster0.gf7ifp2.mongodb.net/inotebook?retryWrites=true&w=majority/api/auth/login", {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       headers: {
         "Content-Type": "application/json",
