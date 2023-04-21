@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const url = 'mongodb://127.0.0.1:27017/inotebook'
+const url = 'mongodb+srv://pateltejas2005:patelbrothers%402005@cluster0.gf7ifp2.mongodb.net/inotebook?retryWrites=true&w=majority'
 
 const connectToMongo = () => {
     mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
